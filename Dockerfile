@@ -5,4 +5,5 @@ ADD . /albatross
 WORKDIR /albatross
 RUN /root/.rye/shims/rye sync
 RUN /root/.rye/shims/python src/albatross/main.py
+# .venv/lib/python3.11/site-packages/_albatross.pth contains /home/konsti/projects/albatross/src
 # .venv/lib/python3.11/site-packages/_pypi_provider.pth is empty

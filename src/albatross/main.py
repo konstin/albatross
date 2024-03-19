@@ -5,7 +5,7 @@ from pypi_provider import PypiClient
 
 async def main():
     async with PypiClient() as client:
-        data = await client.get("numpy")
+        data = await client.get_json("numpy")
         print(len(data["files"]))
 
 
